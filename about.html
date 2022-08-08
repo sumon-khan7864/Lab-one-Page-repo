@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>CSS Website Layout</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+    }
+
+    /* Style the header */
+    .header {
+      background-image: url("img/homeImage.jpg");  
+      color: rgb(0, 255, 255);     
+      padding: 40px;    
+      text-align: center;
+    }
+
+    /* Style the top navigation bar */
+    .topnav {
+      overflow: hidden;  
+      background-image: url("img/709.jpg");
+    }
+
+    /* Style the topnav links */
+    .topnav a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    /* Change color on hover */
+    .topnav a:hover {
+      background-color: rgb(141, 218, 111);
+      color: black;
+    }
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* my-github-porfolio-css-start here */
+
+    body{          
+    margin: 0%;   
+    }
+   
+    .Name-color{
+        color: orange;
+    }
+    .Flixeble-Conteinar{
+        display: flex;
+       margin-bottom: 2px;       
+    }
+    .Half-width{
+        width: 50%;
+        padding-left: 5%;
+        padding-bottom: 10px;
+    }
+    .Half-width img{       
+        width: 100%;        
+    }
+    .Link-Button{
+        text-decoration: none;
+        background-image: linear-gradient(orange ,rgb(197, 42, 14));
+        font-weight: 700px;
+        color: white;
+        padding: 8px 20px;
+        border-radius: 5px;
+    }
+    .Top-Banner{
+        background-color: rgba(210, 233, 233, 0.753);
+        padding-bottom: 150px;
+    }
+    .Dreem-Big{
+      background-color: rgba(210, 233, 233, 0.753);
+        background-repeat: no-repeat;
+        padding-bottom: 200px;
+    }
+    .Exprianse-Item{
+        width: 40%;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-left: 20px;
+        border-radius: 15px;
+        box-shadow: 8px 8px 20px rgb(20, 20, 20);
+    }
+    .Expreanse-area{
+        background-image: url(image/rm309-adj-01.jpg);
+        margin-bottom: 5px;
+        padding-bottom: 180px;
+        
+    }
+    #Full-Stack-Devoloper{
+        border-left: 7px solid;
+        border-image: linear-gradient(blue, cyan);
+        border-image-slice: 1;
+    }
+    #Baby-Developer{
+        border-left: 7px solid;
+        border-image: linear-gradient(rgb(115, 255, 0), rgb(255, 72, 0));
+        border-image-slice: 1;
+    }
+    footer p{
+        text-align: center;
+        padding-top: 40px;  
+        margin-bottom: 0px;
+        color: #ffffff;      
+        background-color: rgb(36, 29, 34);
+        margin-top: auto;       
+        height: 100px;
+        border-top: 5px solid green;
+    }
+    
+  </style>
+</head>
+
+<body>
+
+  <div class="header">
+    <h1>Md Sumon Sharder</h1>
+    <p>This is my About Page</p>
+  </div>
+
+  <div class="topnav">
+    <a class="menuLink" href="./index.html">Home</a>
+    <a class="menuLink" href="./about.html">About</a>
+    <a class="menuLink" href="./Portfolio.html">Portfolio</a>
+    <a class="menuLink" href="./Services.html">Services</a>
+    <a class="menuLink" href="./contact.html">Contact</a>
+  </div>
+
+  <!-- My-Github portfolio-1-start -->
+  <section class="Top-Banner Flixeble-Conteinar">
+    <div class="Half-width"><h1>Welcome to</h1>
+        <h1><span class="Name-color">Rs Sumon</span> World!</h1>
+        <h3>Fontend developer first work example</h3>
+        <p>Front-end web development, also known as client-side development is the practice of producing HTML, CSS and JavaScript for a website or Web Application so that a user can see and interact with them directly. </p>
+        <a class="Link-Button" target="_blank" href="https://www.linkedin.com/in/sumon-hossain-952413184/">HIRE ME</a>
+    </div>
+    <div class="Half-width">
+        <img src="image/photo.png" alt="">
+    </div>
+</section>
+<section class="Dreem-Big Flixeble-Conteinar">
+    <div class="Half-width">
+        <img src="image/pexels-sky.png" alt="">
+    </div>
+    <div class="Half-width">
+        <h1>Dreem Big</h1>
+        <h2>Become a Devoloper</h2>
+        <p>Web developers are responsible for designing and developing websites and website applications. Using a variety of programming languages and web technologies, web developers manage site functionality, implement application features, and integrate security measures.</p>
+        <a class="Link-Button" target="_blank" href="">DOWNLOD RESUME</a>
+    </div>
+</section>
+<section class="Expreanse-area">
+    <h1>Exprianses</h1>
+    <div class="Flixeble-Conteinar">
+        <div id="Full-Stack-Devoloper" class="Exprianse-Item">
+            <h2>Full Stack Developer</h2>
+            <h3 class="Name-color">2022-present| Pro level Developer </h3>
+            <p>I get no direct compensation for mentioning any of the sites listed here. I just want to provide you with the best resources possible to help you get where you are going.</p>
+        </div>
+        <div id="Baby-Developer" class="Exprianse-Item">
+            <h2>Baby Web Developer</h2>
+            <h3 class="Name-color">2022-2024| Pro Level Web Developer </h3>
+            <p>I get no direct compensation for mentioning any of the sites listed here. I just want to provide you with the best resources possible to help you get where you are going.</p>
+        </div>
+    </div>
+</section>
+<footer>        
+        <p class="copyright">sumon-hossain-952413184 © 2022</p>                   
+</footer>
+</body>
+
+</body>
+
+</html>

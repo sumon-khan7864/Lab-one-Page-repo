@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CSS Website Layout</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        /* Style the header */
+        .header {
+            background-image: url("img/homeImage.jpg");  
+            color: rgb(0, 255, 255);     
+            padding: 40px;    
+            text-align: center;
+        }
+
+        /* Style the top navigation bar */
+        .topnav {
+            overflow: hidden;  
+            background-image: url("img/709.jpg");
+        }
+
+        /* Style the topnav links */
+        .topnav a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        /* Change color on hover */
+        .topnav a:hover {
+            background-color: rgb(141, 218, 111);
+            color: black;
+        }
+
+        /* that is my css code start  */
+        .menu-container{
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: 30px;
+            background-color: rgba(179, 255, 80, 0.349);
+        }
+        .Book{
+            border: 2px solid lightcoral;
+            width: 300px;
+            margin: 10px;
+        }
+        .Book img{
+            width: 75%;
+            margin-left: 40px;
+        }
+
+        /* Style the footer */
+        .footer {
+            background-color: #f1f1f1;
+            padding: 10px;
+            text-align: center;
+        }
+
+        #left {
+            width: 25%;
+            float: left;
+            text-align: center;
+        }
+
+        #right {
+            width: 75%;
+            float: right;
+            text-align: center;
+        }
+
+        .middle{
+            text-align: center;
+        }
+
+        footer p{
+        text-align: center;
+        padding-top: 40px;  
+        margin-bottom: 0px;
+        color: #ffffff;      
+        background-color: rgb(36, 29, 34);
+        margin-top: auto;       
+        height: 100px;
+        border-top: 5px solid green;
+    }
+        </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>Md Sumon Sharder</h1>
+        <p>You can any service Here</p>
+    </div>
+
+    <div class="topnav">
+        <a class="menuLink" href="./index.html">Home</a>
+        <a class="menuLink" href="./about.html">About</a>
+        <a class="menuLink" href="./Portfolio.html">Portfolio</a>
+        <a class="menuLink" href="./Services.html">Services</a>
+        <a class="menuLink" href="./contact.html">Contact</a>
+    </div>
+
+    <div class="menu-container">
+        <div class="Book">
+            <img src="img/responsiv-book.jpg" alt="">
+            <h2>price:100</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos recusandae commodi excepturi omnis deleniti quidem laudantium corporis tempora, perferendis pariatur temporibus cum, reprehenderit sapiente. Ipsam, iste ducimus totam similique voluptatem temporibus libero maiores cupiditate exercitationem obcaecati provident iure blanditiis aliquid. Sapiente nobis iusto dolor necessitatibus quos blanditiis ut quidem similique.<br><button>Order Now</button></p>
+        </div>
+        <div class="Book">
+            <img src="img/responsiv-book.jpg" alt="">
+            <h2>price:101</h2>
+            <p>Commodi, atque magni similique sit porro sint iusto ad adipisci doloremque magnam esse, illo deserunt eum laudantium incidunt fugit ipsum! Esse, ipsam minima nulla nobis molestiae labore nostrum. Libero obcaecati delectus illo debitis pariatur perferendis quisquam expedita odit necessitatibus soluta, dicta aliquam recusandae reiciendis nisi dolore dolorem adipisci aspernatur ex.<br><button>Order Now</button></p>
+        </div>
+        <div class="Book">
+            <img src="img/responsiv-book.jpg" alt="">
+            <h2>price:102</h2>
+            <p>Eligendi autem ut reiciendis quibusdam reprehenderit, porro totam dolor dolore sit perspiciatis optio quas delectus soluta repudiandae dicta aliquam, excepturi quae distinctio molestias sapiente. Aliquam laboriosam eius magni doloribus error consequatur dolor ipsum. Vel itaque dignissimos similique eaque adipisci sint id magnam? Atque, libero nisi expedita reprehenderit sapiente consequuntur hic?<br><button>Order Now</button></p>
+        </div>
+        <div class="Book">
+            <img src="img/responsiv-book.jpg" alt="">
+            <h2>price:103</h2>
+            <p>Aspernatur, unde temporibus libero nesciunt assumenda quaerat aut vel commodi sit officiis amet facere autem voluptates quam. Porro obcaecati esse nisi molestias modi cumque deserunt perferendis quibusdam officia repellendus, suscipit officiis ipsa, ullam dolore voluptate error fugit ducimus odit assumenda! Quaerat enim earum consequatur consequuntur aperiam minima unde, minus provident?<br><button>Order Now</button></p>
+        </div>
+        <div class="Book">
+            <img src="img/responsiv-book.jpg" alt="">
+            <h2>price:104</h2>
+            <p>Est, illum nostrum? At repellendus esse corporis temporibus aperiam reprehenderit iure commodi, quasi vel ex facilis totam debitis expedita consequatur, porro vero dignissimos itaque delectus repudiandae recusandae! Praesentium adipisci dolores commodi soluta. Dolor veniam repudiandae minus praesentium sit harum similique explicabo illum, blanditiis assumenda atque accusamus culpa quaerat necessitatibus possimus.<br><button>Order Now</button></p>
+        </div>
+        <div class="Book">
+            <img src="img/responsiv-book.jpg" alt="">
+            <h2>price:105</h2>
+            <p>Suscipit dolore cumque modi fugit facilis laborum sed aliquid eius quaerat eum aut eos rem sequi aliquam commodi itaque, corrupti praesentium repudiandae similique aperiam quasi architecto id molestias et? Illo, cum ea inventore ad nemo quam sapiente architecto tempora, laborum, omnis obcaecati iste alias placeat non itaque dolore. Beatae, sit?<br><button>Order Now</button></p>
+        </div>
+        <div class="Book">
+            <img src="img/responsiv-book.jpg" alt="">
+            <h2>price:106</h2>
+            <p>Aliquam accusantium ratione earum ipsam consequatur cupiditate sed architecto deleniti, laborum consectetur corrupti perferendis, rerum repellendus a itaque est illo placeat ipsum, ab labore odit harum. Nam laboriosam consequatur soluta. Ducimus voluptatem labore perferendis sunt tenetur corporis veniam explicabo fugiat a suscipit, cupiditate laborum sint recusandae delectus maxime esse quidem?<br><button>Order Now</button></p>
+        </div>
+        <div class="Book">
+            <img src="img/responsiv-book.jpg" alt="">
+            <h2>price:107</h2>
+            <p>Aut saepe quis optio possimus ducimus id delectus vel repellat, soluta atque nobis, quas sequi. Voluptates, tempore? Suscipit impedit fuga voluptates animi. Veniam perferendis itaque voluptate molestias temporibus perspiciatis ratione soluta saepe officia iusto reiciendis nulla quas unde nemo dolore amet, quam nesciunt error. Magnam nulla exercitationem recusandae sunt enim.<br><button>Order Now</button></p>
+        </div>
+    </div>
+
+    
+    <footer>        
+        <p class="copyright">sumon-hossain-952413184 © 2022</p>                   
+    </footer>
+</body>
+
+</html>
